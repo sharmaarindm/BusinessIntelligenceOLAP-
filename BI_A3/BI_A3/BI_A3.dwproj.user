@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Yo Yo DB</Id>
+            <Name>Yo Yo DB</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7OCTzZuIXkyiY8iEECc5igAAAAASAAAAWQBvACAAWQBvACAARABCAAAAA2YAAMAAAAAQAAAAbXkY328up80ioYbkdvvIrwAAAAAEgAAAoAAAABAAAABDxbdKXR0shnsw+QAg6MZRCAAAAMQRNR+GTrZOFAAAAE9cVa1ReJM6Otz4KL/EkbglWdtJ</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Yo Yo DB</Id>
+            <Name>Yo Yo DB</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7OCTzZuIXkyiY8iEECc5igAAAAASAAAAWQBvACAAWQBvACAARABCAAAAA2YAAMAAAAAQAAAATCBMNNByqV/Z7Tkvn0BGewAAAAAEgAAAoAAAABAAAABTjj0we0ZvBSEFlEBoY9zwGAAAAC+mDs98SdLWJotWo3bLVvqN7DGLYwDRQRQAAABq8FNamuS9BP5ZWb4oZC9LbpgAtw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>2A314-D05\MSSQL2016</TargetServer>
+        <TargetDatabase>BI_A3</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
