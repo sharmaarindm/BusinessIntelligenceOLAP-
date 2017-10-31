@@ -79,6 +79,7 @@
             this.LinescheckBox.TabIndex = 3;
             this.LinescheckBox.Text = "All Lines";
             this.LinescheckBox.UseVisualStyleBackColor = true;
+            this.LinescheckBox.CheckedChanged += new System.EventHandler(this.LinescheckBox_CheckedChanged);
             // 
             // label1
             // 

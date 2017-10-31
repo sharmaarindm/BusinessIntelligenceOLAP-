@@ -1,0 +1,11 @@
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.csprojResolveAssemblyReference.cache
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.Form1.resources
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.Properties.Resources.resources
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.csproj.GenerateResource.Cache
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.csproj.CoreCompileInputs.cache
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\bin\Debug\asharma_zpecin_A3.exe.config
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\bin\Debug\asharma_zpecin_A3.exe
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\bin\Debug\asharma_zpecin_A3.pdb
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.exe
+C:\Users\asharma3382\Desktop\BIA3\asharma_zpecin_A3\asharma_zpecin_A3\obj\Debug\asharma_zpecin_A3.pdb
