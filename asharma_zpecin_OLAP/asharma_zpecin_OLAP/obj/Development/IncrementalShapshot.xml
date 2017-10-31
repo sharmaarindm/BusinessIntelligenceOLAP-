@@ -1,6 +1,6 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
-    <Database>BI_A3</Database>
+    <Database>asharma_zpecin_OLAP</Database>
     <Server>2A314-D05\MSSQL2016</Server>
     <ConnectionString>Data Source=2A314-D05\MSSQL2016;Timeout=0</ConnectionString>
   </Target>
@@ -19,56 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>lu5SCKM27Gm5mWxQl4cXB5QrM20=10/30/2017 5:21:56 PM10/30/2017 5:21:56 PM</TimeStamp>
+        <TimeStamp>pilxw9eeSVum8jpOFE+NgFy6jkE=10/31/2017 2:33:18 PM10/31/2017 2:33:18 PM</TimeStamp>
         <ID>
           <String>Yo Yo DB</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>kSCBSCv48exjGXM6uinmjPvWWz0=10/30/2017 5:22:12 PM10/30/2017 5:22:12 PM</TimeStamp>
+        <TimeStamp>Vp8j9jjNYxL2SIb/WGoT0nKTzCQ=10/31/2017 2:33:29 PM10/31/2017 2:33:29 PM</TimeStamp>
         <ID>
           <String>Yo Yo DB</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vsleiM6niG4OI4RXEadbd15aYEs=10/30/2017 5:22:45 PM10/30/2017 5:22:45 PM</TimeStamp>
+        <TimeStamp>vrmGS5itMzVlFVD5CnsTwaCkWDk=10/31/2017 2:33:54 PM10/31/2017 2:33:54 PM</TimeStamp>
         <ID>
           <String>Line</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>aeHuFSpM87JV0YK4QKfUdhXz7ls=10/30/2017 5:23:23 PM10/30/2017 5:23:23 PM</TimeStamp>
-        <ID>
-          <String>Workarea</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>7L704PfSkkfGOz4TpuCSC91Phs8=10/30/2017 5:23:57 PM10/30/2017 5:23:57 PM</TimeStamp>
-        <ID>
-          <String>Reason</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Yp56W1svjJE4PiFW521E4SnvmIk=10/30/2017 5:24:29 PM10/30/2017 5:24:29 PM</TimeStamp>
+        <TimeStamp>mnJ7dZmEmuJSe6GrismOATDHFl4=10/31/2017 2:34:15 PM10/31/2017 2:34:15 PM</TimeStamp>
         <ID>
           <String>State</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>pYQ2xeyMOZTDYIM5fx38neBFJSQ=10/30/2017 5:25:17 PM10/30/2017 5:25:17 PM</TimeStamp>
+        <TimeStamp>wnCM2FAUjQlL04WNIZZqHhY7IAI=10/31/2017 2:34:33 PM10/31/2017 2:34:33 PM</TimeStamp>
+        <ID>
+          <String>Workarea</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5A1Yi6N4LDkZKccyxwrw4dVD3hk=10/31/2017 2:34:49 PM10/31/2017 2:34:49 PM</TimeStamp>
+        <ID>
+          <String>Reason</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NimaIOyP/UQ9DFEU6ruM1xqfzKc=10/31/2017 2:35:16 PM10/31/2017 2:35:16 PM</TimeStamp>
         <ID>
           <String>Product Description</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ngpwMY2o96dw+0CxK/sD3ApIZLI=10/30/2017 5:25:29 PM10/30/2017 5:25:29 PMcN+No/lyUrrGnwuxvuQRNEUwc+A=10/30/2017 5:25:29 PM10/30/2017 5:25:29 PM</TimeStamp>
+        <TimeStamp>HawLJj7QcmpWBXLUr1xyFnHAqWs=10/31/2017 2:35:29 PM10/31/2017 2:35:29 PMrUmON+lOrDdQUvlyn+XI0cD0fSU=10/31/2017 2:35:29 PM10/31/2017 2:35:29 PM</TimeStamp>
         <ID>
           <String>Yo Yo DB</String>
         </ID>
@@ -76,14 +76,14 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>bdJToivd+Kgumb0SV6DYF/8dKiw=10/30/2017 3:50:30 PM10/30/2017 3:50:29 PM</TimeStamp>
+      <TimeStamp>LZqOJTwS0JTBYv2kI/IbIqGfGqQ=10/31/2017 2:30:35 PM10/31/2017 2:30:35 PM</TimeStamp>
       <ID>
-        <String>BI_A3</String>
+        <String>asharma_zpecin_OLAP</String>
       </ID>
     </DatabaseSnapshot>
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-10-30T21:25:40.376667Z</LastDeployed>
+  <LastDeployed>2017-10-31T18:37:55.526667Z</LastDeployed>
 </DeploymentSnapshot>

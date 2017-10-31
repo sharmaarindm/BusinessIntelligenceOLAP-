@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "BI_A3", "BI_A3\BI_A3.dwproj", "{EE3EB642-2322-4A64-A56F-8846CA3706CE}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "asharma_zpecin_OLAP", "asharma_zpecin_OLAP\asharma_zpecin_OLAP.dwproj", "{D734033C-54DD-43BA-A9D3-54C09EBCC38B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE3EB642-2322-4A64-A56F-8846CA3706CE}.Development|Default.ActiveCfg = Development
-		{EE3EB642-2322-4A64-A56F-8846CA3706CE}.Development|Default.Build.0 = Development
-		{EE3EB642-2322-4A64-A56F-8846CA3706CE}.Development|Default.Deploy.0 = Development
+		{D734033C-54DD-43BA-A9D3-54C09EBCC38B}.Development|Default.ActiveCfg = Development
+		{D734033C-54DD-43BA-A9D3-54C09EBCC38B}.Development|Default.Build.0 = Development
+		{D734033C-54DD-43BA-A9D3-54C09EBCC38B}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

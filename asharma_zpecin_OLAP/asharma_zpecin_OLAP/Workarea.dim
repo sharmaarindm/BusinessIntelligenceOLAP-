@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9ec37293-5b40-4feb-8e44-3a32f477f1ee" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>State</ID>
-  <Name>State</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="790098f0-2c52-4209-bd18-dcdf8b0c7bde" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Workarea</ID>
+  <Name>Workarea</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,37 +42,31 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="417b76e5-1760-4c26-addf-cc6b9f3da730">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a7eb05d7-7fc3-4032-ae25-f4fd08fdfade">
     <DataSourceViewID>Yo Yo DB</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="33b2308f-ee46-4b3a-84dd-2ea67157d6dc">
+  <ErrorConfiguration dwd:design-time-name="70288c2a-cc4e-4fd5-9402-9effb64c78c9">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2fbfd2e3-2c2b-45a0-9956-28bbc9f5f62a">
-      <ID>Product Status</ID>
-      <Name>Product Status</Name>
+    <Attribute dwd:design-time-name="1ac294f7-d203-4f6b-8938-ae4733b0f06d">
+      <ID>Work Area</ID>
+      <Name>Work Area</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="cf2965fd-d246-42d0-aeb5-0eca16127caa">
+        <KeyColumn dwd:design-time-name="d4eceb47-ce83-484d-a4da-858e26f5c408">
           <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff89da6a-2aa6-4df6-8f1b-6ce1632ea60d">
-            <TableID>dbo_CurrentProduction</TableID>
-            <ColumnID>ProductStatus</ColumnID>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="195bdeff-13fb-4c36-8b9a-469fae95fa77">
+            <TableID>dbo_YoYoData</TableID>
+            <ColumnID>WorkArea</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="de3412d6-9c7b-4ba4-911c-6a08cea9554d">
-        <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ca6de913-a851-484b-9e89-680614efbd66">
-          <TableID>dbo_CurrentProduction</TableID>
-          <ColumnID>ProductionID</ColumnID>
-        </Source>
-      </NameColumn>
+      <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
