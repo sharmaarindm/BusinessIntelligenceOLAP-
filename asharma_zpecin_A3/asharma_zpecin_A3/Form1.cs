@@ -12,6 +12,9 @@ namespace asharma_zpecin_A3
 {
     public partial class Form1 : Form
     {
+        string[] lines;
+        string[] products;
+
         DAL myDal = new DAL();
         public Form1()
         {
