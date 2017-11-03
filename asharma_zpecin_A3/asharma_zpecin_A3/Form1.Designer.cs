@@ -39,13 +39,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.Update = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // ProductsCombo
             // 
             this.ProductsCombo.FormattingEnabled = true;
-            this.ProductsCombo.Location = new System.Drawing.Point(481, 76);
+            this.ProductsCombo.Location = new System.Drawing.Point(697, 130);
             this.ProductsCombo.Name = "ProductsCombo";
             this.ProductsCombo.Size = new System.Drawing.Size(121, 21);
             this.ProductsCombo.TabIndex = 0;
@@ -53,7 +54,7 @@
             // LinesCombo
             // 
             this.LinesCombo.FormattingEnabled = true;
-            this.LinesCombo.Location = new System.Drawing.Point(481, 142);
+            this.LinesCombo.Location = new System.Drawing.Point(697, 196);
             this.LinesCombo.Name = "LinesCombo";
             this.LinesCombo.Size = new System.Drawing.Size(121, 21);
             this.LinesCombo.TabIndex = 1;
@@ -62,18 +63,19 @@
             // 
             this.ProductscheckBox.AutoSize = true;
             this.ProductscheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductscheckBox.Location = new System.Drawing.Point(609, 79);
+            this.ProductscheckBox.Location = new System.Drawing.Point(825, 133);
             this.ProductscheckBox.Name = "ProductscheckBox";
             this.ProductscheckBox.Size = new System.Drawing.Size(124, 24);
             this.ProductscheckBox.TabIndex = 2;
             this.ProductscheckBox.Text = "All Products";
             this.ProductscheckBox.UseVisualStyleBackColor = true;
+            this.ProductscheckBox.CheckedChanged += new System.EventHandler(this.ProductscheckBox_CheckedChanged);
             // 
             // LinescheckBox
             // 
             this.LinescheckBox.AutoSize = true;
             this.LinescheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LinescheckBox.Location = new System.Drawing.Point(609, 142);
+            this.LinescheckBox.Location = new System.Drawing.Point(825, 196);
             this.LinescheckBox.Name = "LinescheckBox";
             this.LinescheckBox.Size = new System.Drawing.Size(96, 24);
             this.LinescheckBox.TabIndex = 3;
@@ -85,7 +87,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(481, 13);
+            this.label1.Location = new System.Drawing.Point(697, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(177, 25);
             this.label1.TabIndex = 4;
@@ -96,7 +98,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(481, 50);
+            this.label2.Location = new System.Drawing.Point(697, 104);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 24);
             this.label2.TabIndex = 5;
@@ -107,7 +109,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(481, 115);
+            this.label3.Location = new System.Drawing.Point(697, 169);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 24);
             this.label3.TabIndex = 6;
@@ -125,15 +127,30 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(424, 402);
+            this.chart1.Size = new System.Drawing.Size(487, 402);
             this.chart1.TabIndex = 7;
             this.chart1.Text = "chart1";
+            // 
+            // Update
+            // 
+            this.Update.BackColor = System.Drawing.Color.White;
+            this.Update.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Update.ForeColor = System.Drawing.Color.Red;
+            this.Update.Location = new System.Drawing.Point(697, 260);
+            this.Update.Name = "Update";
+            this.Update.Size = new System.Drawing.Size(252, 64);
+            this.Update.TabIndex = 8;
+            this.Update.Text = "Update";
+            this.Update.UseVisualStyleBackColor = false;
+            this.Update.Click += new System.EventHandler(this.Update_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(948, 427);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1016, 427);
+            this.Controls.Add(this.Update);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -160,6 +177,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Button Update;
     }
 }
 

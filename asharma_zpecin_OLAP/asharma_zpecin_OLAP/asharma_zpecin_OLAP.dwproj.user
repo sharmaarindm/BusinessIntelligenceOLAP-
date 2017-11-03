@@ -7,14 +7,14 @@
           <ConfigurationSetting>
             <Id>Yo Yo DB</Id>
             <Name>Yo Yo DB</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmG9vgmTLWk22m7NaW4mTgAAAAAASAAAAWQBvACAAWQBvACAARABCAAAAA2YAAMAAAAAQAAAA6rC5O8PcYwYEDeM2BfPV+AAAAAAEgAAAoAAAABAAAAAZjqOhT/IDM692Wbb4pqpoCAAAANKxM5fKxjEEFAAAAP7RgaCsqHa7qDOYKTySAeap4u7H</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVtnXwLiwRUepYCoYVSX+mQAAAAASAAAAWQBvACAAWQBvACAARABCAAAAA2YAAMAAAAAQAAAAWWydim829pwqz9Fv/waPygAAAAAEgAAAoAAAABAAAADSaUVM/SoOzXVQOVY9uRpbCAAAAKizW6ZtjwDxFAAAAO8ESglm7Scs/82kB/lS6lt7LOaX</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>Yo Yo DB</Id>
             <Name>Yo Yo DB</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmG9vgmTLWk22m7NaW4mTgAAAAAASAAAAWQBvACAAWQBvACAARABCAAAAA2YAAMAAAAAQAAAAwUlMoIIhvVx59iG5VZygowAAAAAEgAAAoAAAABAAAACyyLLUC+I+robwVP+MXx5gGAAAAGZiOsUwsJGtovrKDgbgyJBzu+bTpc0OuRQAAACGrEUfB3dSH/jNqzgX8JqjbiC1Bw==</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVtnXwLiwRUepYCoYVSX+mQAAAAASAAAAWQBvACAAWQBvACAARABCAAAAA2YAAMAAAAAQAAAAsaKZNlH+oTw5R9PhBY5QSQAAAAAEgAAAoAAAABAAAAAinEouISz8g5n1KYDfvOCDGAAAAPmk4OfUWLNZqQUycLFQVxRxdtL/rPGFAhQAAAAhDqoYzW+dFZoIbNuwvuts6Q1SPA==</Value>
           </ConfigurationSetting>
         </UserPasswords>
         <TargetServer>2A314-D05\MSSQL2016</TargetServer>
